@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Smart AGRICULTURE</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+<!-- PWA -->
+
+    <meta name="theme-color" content="green">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="icons/Icon-152.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="msapplication-TileImage" content="icons/Icon-144.png">
+<!-- END PWA -->
+  <!-- Favicons -->
+  
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style/style.css" rel="stylesheet">
+
+  <style type="text/css">
+    
+    .testimonial-preview[_ngcontent-plantix-website-c7] {
+    width: 100%;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.container[_ngcontent-plantix-website-c7] {
+    justify-content: space-between;
+    text-align: left;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.user-img-wrp[_ngcontent-plantix-website-c7] {
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    background-color: #fbfbfb;
+    overflow: hidden;
+    box-shadow: 0 3px 3px rgba(0,0,0,.4);
+    transition: -webkit-filter .1s ease-in-out;
+    transition: filter .1s ease-in-out;
+    transition: filter .1s ease-in-out,-webkit-filter .1s ease-in-out;
+    z-index: 99;
+    transform: translateZ(100px);
+    border: 4px solid #fff;
+}
+.img-loading-placeholder {
+    color: transparent;
+    background-color: #fbfbfb;
+    background-image: ;
+    background-position: center center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+
+.testimonial-preview[_ngcontent-plantix-website-c7] .user-img[_ngcontent-plantix-website-c7] {
+    width: 160px;
+    height: 160px;
+    display: block;
+    left: 0;
+    top: 0;
+}
+
+.appear[_ngcontent-plantix-website-c7] {
+    -webkit-animation-name: appear;
+    animation-name: appear;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+
+.text[_ngcontent-plantix-website-c7] {
+    height: calc(100% - 100px);
+    background-color: #fafafa;
+    padding: 60px 20px 20px;
+    margin-top: -60px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+
+
+
+
+
+
+
+.name[_ngcontent-plantix-website-c7] {
+    display: inline-block;
+    font-family: Quicksand,Noto,sans-serif;
+    font-weight: 600;
+    color: #009688;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p[_ngcontent-plantix-website-c7] {
+    font-size: 16px;
+    line-height: 175%;
+    color: #676767;
+}
+
+
+
+
+.location[_ngcontent-plantix-website-c7] {
+    margin-top: 5px;
+    color: #555;
+}
+
+.crops[_ngcontent-plantix-website-c7], .location[_ngcontent-plantix-website-c7] {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+p[_ngcontent-plantix-website-c7] {
+    font-size: 16px;
+    line-height: 175%;
+    color: #676767;
+}
+
+
+.crops[_ngcontent-plantix-website-c7] {
+    margin-bottom: 10px;
+    color: #888;
+}
+
+
+
+
+
+p.quote[_ngcontent-plantix-website-c7] {
+    text-align: center;
+    font-size: 1rem;
+    overflow: hidden;
+    line-height: 1.4rem;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding-bottom: 40px;
+}
+
+
+
+.quote[_ngcontent-plantix-website-c7]::before {
+    margin-bottom: 10px;
+}
+
+.quote[_ngcontent-plantix-website-c7]::after, .quote[_ngcontent-plantix-website-c7]::before {
+    display: block;
+    width: 30px;
+    height: 23px;
+    content: "";
+    background-image: ;
+}
+
+.quote[_ngcontent-plantix-website-c7]::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.quote[_ngcontent-plantix-website-c7]::after, .quote[_ngcontent-plantix-website-c7]::before {
+    display: block;
+    width: 30px;
+    height: 23px;
+    content: "";
+    background-image:;
+}
+
+
+
+
+#big-numbers-counter {
+    background-color: #f4f4f4;
+}
+.wrapper {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+
+
+#big-numbers-counter .big-numbers-holder {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+@media only screen and (max-width: 575px)
+.col-xs-12 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+@media only screen and (max-width: 575px)
+.container {
+    width: 100%;
+}
+.col-12 {
+    width: 100%;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    outline: 0;
+}
+.container {
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+
+
+#big-numbers-counter .big-number {
+    display: inline-block;
+    width: calc(99% - 4px);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 281px;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 2px 2px 4px;
+}
+
+
+
+
+
+#big-numbers-counter .number-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 4px;
+}
+img {
+    color: transparent;
+}
+
+
+
+#big-numbers-counter .description, #big-numbers-counter .number {
+    text-shadow: 1px 1px 5px #000;
+}
+
+#big-numbers-counter .description {
+    font-weight: 700;
+    position: absolute;
+    top: calc(25%);
+    left: 0;
+    right: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+
+#big-numbers-counter p {
+    z-index: 1;
+    color: #fff;
+    font-family: Quicksand,sans-serif;
+    margin: 0;
+}
+input, li, p {
+    font-family: Roboto,Noto,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+#big-numbers-counter .finish .counter {
+    -webkit-animation-name: auffluppen;
+    animation-name: auffluppen;
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+#big-numbers-counter .description .counter {
+    margin: 15px;
+    font-size: 46px;
+    display: block;
+}
+
+
+.title-left:before {
+    
+    background-color: #3CB371;
+    
+}
+
+
+.ion-ios-telephone:before {
+    content: "\f4b9";
+    color: #3CB371;
+}
+.ion-ios-location:before {
+    content: "\f456";
+    color: #3CB371;
+}
+.ion-email:before {
+    content: "\f132";
+    color: #3CB371;
+}
+.socials .ico-circle {
+    box-shadow: 0 0 0 3px #3CB371;
+ 
+}
+.socials .ico-circle:hover {
+    
+   background-color: #3CB371;
+}
+
+.navbar-b.navbar-trans .nav-link:before {
+    background-color: #3CB371;
+}
+
+.navbar-b.navbar-reduce .nav-link {
+    color:  black;
+}
+
+
+.navbar-b.navbar-reduce .nav-link.active {
+    color: #3CB371;
+}
+  </style>
+
+</head>
+
+<body id="page-top">
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top"><b>SMART</b> AGRICULTURE</a></a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#Information">Information</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll" href="#biblio">bibliothèque</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link js-scroll" href="#NosUsers">Nos Utilisateurs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#Contact">Contact</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="page_auther/loginform.php" style="padding-top: 10px; padding-bottom: 10px;"><button class="btn btn-success"  role="button">Login</button></a>
+            <a href="page_auther/registerform.php"><button class="btn btn-default"  role="button">Sign up</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/ph2.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <p class="intro-title"><span class="text-slider-items">ONE PLANTE, ONE PICTURE, ONE SPECIES</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle mb-4"><strong>With the app, identify one plant from a picture, and be part of a citizen science project on plant biodiversity</strong></p>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="Information" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="row">
+                   <div class="col-sm-2 col-md-2">
+                  </div>
+                  <div class="col-sm-10 col-md-10">
+                    <div class="about-img">
+                      <img src="img/ph1.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="intro-subtitle" style="color: #3CB371; font-size: 35px;">
+                      Diagnostique et Traiter
+                    </h5>
+                  </div>
+                  <p class="lead" style="text-align: justify;">
+                    Transformez votre téléphone Android en médecine agricole mobile : Avec une seule photo, SMART AGRICULTURE diagnostique les cultures infectées et propose des traitements pour tout parasite et toute maladie ou carence en nutriments.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+<section id="Information" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              
+              <div class="col-md-5">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="intro-subtitle" style="color: #3CB371; font-size: 35px;">
+                      Rejoignez La Communauté !
+                    </h5>
+                  </div>
+                  <p class="lead" style="text-align: justify;">
+                    Profitez du savoir-faire d'un expert agricole ou aidez vos collègues agriculteurs grâce à votre expérience: Rejoignez la Communauté SMART AGRICULTURE, le réseau social pour agriculteurs du région Fès-Mekness.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-7">
+                <div class="row">
+                   <div class="col-sm-2 col-md-2">
+                  </div>
+                  <div class="col-sm-10 col-md-10">
+                    <div class="about-img">
+                      <img src="img/ph3.png" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+<section id="Information" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="row">
+                   <div class="col-sm-2 col-md-2">
+                  </div>
+                  <div class="col-sm-10 col-md-10">
+                    <div class="about-img">
+                      <img src="img/ph.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="intro-subtitle" style="color: #3CB371; font-size: 35px;">
+                      Augmentez Vos rendements!
+                    </h5>
+                  </div>
+                  <p class="lead" style="text-align: justify;">
+                    Meilleurs protique agricoles, Profitez des conseils agricoles et obtenez un plan d'action adabté  à votre environnement.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!--/ Section Services Star /-->
+  <section id="NosUsers" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="intro-subtitle" style="color: #3CB371; font-size: 35px;">
+              Nos utilisateurs En Parlent
+            </h3>
+            <p class="subtitle-a">
+              L'application est spécialisée en domaine d'agriculture et facile a utiliser. Voici ce que disent nos utilisateurs: 
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <div _ngcontent-plantix-website-c7="" class="testimonial-preview">
+        <div _ngcontent-plantix-website-c7="" class=" user-img-wrp img-loading-placeholder">
+       <img _ngcontent-plantix-website-c7="" class="user-img  appear" src="img/user1.png">
+      </div>
+    <div _ngcontent-plantix-website-c7="" class="text">
+    <p _ngcontent-plantix-website-c7="" class="name">Boulman Hamza</p>
+    <p _ngcontent-plantix-website-c7="" class="location">Fes · Maroc</p>
+    <p _ngcontent-plantix-website-c7="" class="crops">Coton, Riz &amp; Blé </p>
+    <p _ngcontent-plantix-website-c7="" class="quote"> SMART AGRICULTURE est mon application préférée. Diagnostic rapide, confirmation, causes et suggestions de traitement. </p>
+     </div>
+     </div>
+        </div>
+
+     <div class="col-md-4">
+          <div _ngcontent-plantix-website-c7="" class="testimonial-preview"  style="height: 482px;">
+        <div _ngcontent-plantix-website-c7="" class=" user-img-wrp img-loading-placeholder">
+     
+       <img _ngcontent-plantix-website-c7="" class="user-img  appear" src="img/user2.jpeg">
+     
+      </div>
+    <div _ngcontent-plantix-website-c7="" class="text">
+    <p _ngcontent-plantix-website-c7="" class="name">Najmi Hatim</p>
+    <p _ngcontent-plantix-website-c7="" class="location">Fes · Maroc</p>
+    <p _ngcontent-plantix-website-c7="" class="crops">Coton, Riz &amp; Blé </p>
+    <p _ngcontent-plantix-website-c7="" class="quote"> Cette application est géniale, surtout pour le diagnostic des plantes. C'est la voie vers une terre plus verte. </p>
+     </div>
+     </div>
+        </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<br><br>
+
+<section id="biblio" class="services-mf route">
+    <div class="container">
+      <div class="row">
+       <div class="col-sm-12">
+          <div class="title-box-2 text-center">
+            <h3 class="title-left" style="color: #3CB371; font-size: 35px;">
+             Bibliothèque
+            </h3>
+          </div>
+        </div>
+      </div>
+      
+
+
+      
+<div class="row">
+  <div class="col-lg-3">
+    <a href="page_auther/biblio_plante_medicine/biblio_plante_medicine.php">
+<app-big-numbers-counter _ngcontent-plantix-website-c4="">
+  <div class="wrapper" id="big-numbers-counter">
+    <div class="container grid-col col-12 col-xs-12 big-numbers-holder"><!---->
+        <div class="big-number  img-loading-placeholder crops ">
+        <picture>
+          <source media="(min-width: 768px)" srcset="img/med.jpg"><!---->
+            <img class="number-bg" src="img/med.jpg">
+          </picture>
+          <p class="description finish" style="font-size: 40px;">Plantes <span class="counter counter-diseases" style="visibility: hidden;"></span> Médicine</p>
+        </div>
+    </div>
+  </div>
+</app-big-numbers-counter>
+</a>
+</div>
+<div class="col-lg-3">
+  <a href="page_auther/biblio_plante/biblio_plante.php">
+<app-big-numbers-counter _ngcontent-plantix-website-c4="">
+  <div class="wrapper" id="big-numbers-counter">
+    <div class="container grid-col col-12 col-xs-12 big-numbers-holder"><!---->
+        <div class="big-number  img-loading-placeholder diseases">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/plt.JPG"><!---->
+              <img class="number-bg" src="img/plt.JPG">
+            </picture>
+             <p class="description finish" style="font-size: 40px;"><span class="counter counter-diseases" style="visibility: hidden;"></span> Plantes </p>
+        </div>
+        
+    </div>
+  </div>
+</app-big-numbers-counter>
+</a>
+</div>
+
+
+
+<div class="col-lg-3">
+  <a href="page_auther/biblio_maladie/biblio_maladie.php">
+<app-big-numbers-counter _ngcontent-plantix-website-c4="">
+  <div class="wrapper" id="big-numbers-counter">
+    <div class="container grid-col col-12 col-xs-12 big-numbers-holder"><!---->
+        <div class="big-number  img-loading-placeholder languages">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/ml.jpg"><!---->
+                <img class="number-bg" src="img/ml.jpg">
+            </picture>
+             <p class="description finish" style="font-size: 40px;"><span class="counter counter-diseases" style="visibility: hidden;"></span> Maladie </p>
+        </div>
+    </div>
+  </div>
+</app-big-numbers-counter>
+</a>
+</div>
+
+<div class="col-lg-3">
+  <a href="page_auther/biblio_traitement/biblio_traitement.php">
+<app-big-numbers-counter _ngcontent-plantix-website-c4="">
+  <div class="wrapper" id="big-numbers-counter">
+    <div class="container grid-col col-12 col-xs-12 big-numbers-holder"><!---->
+        <div class="big-number  img-loading-placeholder languages">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/tra2.jpg"><!---->
+                <img class="number-bg" src="img/tra2.jpg">
+            </picture>
+             <p class="description finish" style="font-size: 40px;"><span class="counter counter-diseases" style="visibility: hidden;"></span> Traitement </p>
+        </div>
+    </div>
+  </div>
+</app-big-numbers-counter>
+</a>
+</div>
+
+
+
+ </div>
+</div> 
+    </div>
+  </section>
+
+
+
+
+  <!--/ Section Blog End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section id="Contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg); ">
+    <div class="overlay-mf" style="background-color: #3CB371;" ></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left" >
+                      Envoyer votre message !
+                    </h5>
+                  </div>
+                  <div>
+                      <form action="" method="post" role="form" class="contactForm">
+                      <div id="sendmessage">Votre Message a étais bien envoyer. Merci à vous!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded" style="background-color: #3CB371;">Envoyer</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Fes</li>
+                      <li><span class="ion-ios-telephone"></span> +2125 35-708588</li>
+                      <li><span class="ion-email"></span> fsdmlabo@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top" style="background-color: #3CB371;"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <!-- <script src="lib/popper/popper.min.js"></script> -->
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <!-- <script src="lib/lightbox/js/lightbox.min.js"></script> -->
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <!-- <script src="contactform/contactform.js"></script> -->
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+<script >
+if('serviceWorker' in navigator){
+   navigator.serviceWorker.register('sw.js')
+   .then((reg) => console.log('service worker registred', reg))
+   .catch((err) => console.log('service worker not registred', err));
+}
+</script>
+</body>
+</html>
